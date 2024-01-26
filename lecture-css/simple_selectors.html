@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Simple Selectors</title>
+    <style>
+        /* All h2 elements*/
+        h2{
+            color:red;
+            text-align: center;
+        }
+        /* All with class="highlight"*/
+        .highlight{
+           font-size: 20px;
+            font-weight: bold;
+            font-style: italic;
+            background-color: green;
+            opacity: .6;  
+        }
+        /* Element id="mainPoint"*/
+        #mainPoint{
+           font-size: 24px;
+            font-weight: bold;
+            background-color: red;
+            opacity: .6;
+        }
+        /* All p and h1 element*/
+        p, h1{
+            color: blue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple Selectors (h1)</h1>
+    <h2>Subheading 1(h2)</h2>
+    <p class="highlight">CSS works by associating rules with HTML elements. These rules govern how the content of a specified elements 
+        should be displayed. A CSS rule contains two parts:a selector and a declrartion. </p>
+        <p class="highlight">CSS works by associating rules with HTML elements. These rules govern how the content of a specified elements 
+            should be displayed. A CSS rule contains two parts:a selector and a declrartion. </p>
+           
+        <h2>Subheading 2 (h2)</h2>
+        <p> Now, the collection of these CSS rules is what's called a style sheet. Now, technically speaking, 
+            you don't have to have anything in the style sheet to be called a style sheet. An empty style sheet,
+             it technically is a style sheet as well.</p>
+             <div>This is the main point of the entire element. So attribute <span id="mainPoint">id=mainPoint</span></div>
+    
+</body>
+</html>
+
